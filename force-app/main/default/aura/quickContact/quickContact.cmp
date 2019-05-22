@@ -1,7 +1,7 @@
 <!-- component with interfaces added to give it ability to be used for Record home pages with inbuilt recordId attribute -->
 <aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
 
-    <!-- attribute to store the contact record returned by Lightning Data Service -->
+    <!--<!-- attribute to store the contact record returned by Lightning Data Service -->
     <aura:attribute name="con" type="Contact"/>
     
     <!-- Lightning Data Service usage in EDIT mode to get the Contact record -->
@@ -26,7 +26,10 @@
             <lightning:button label="Save" onclick="{!c.handleSave}" />
         </aura:set>
         
-    </lightning:card>
+    </lightning:card> -->
+	
+	I am hungry
+	
 
 </aura:component>
 
